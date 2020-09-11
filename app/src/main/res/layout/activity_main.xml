@@ -21,6 +21,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.05" />
@@ -40,7 +41,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:onClick="dontExist"
             android:text="@string/btn_play"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -54,8 +54,9 @@
             android:layout_marginTop="8dp"
             android:onClick="dontExist"
             android:text="@string/btn_setting"
-            app:layout_constraintTop_toBottomOf="@+id/btn_play"
-            tools:layout_editor_absoluteX="91dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_play" />
 
         <Button
             android:id="@+id/btn_exit"
@@ -63,10 +64,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/ic_baseline_exit_to_app_24"
             android:onClick="closeApp"
             android:text="@string/btn_exit"
-            app:layout_constraintTop_toBottomOf="@+id/btn_setting"
-            tools:layout_editor_absoluteX="94dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_setting" />
 
         <Button
             android:id="@+id/btn_info"
@@ -76,8 +79,9 @@
             android:layout_marginTop="8dp"
             android:onClick="openActivityInfo"
             android:text="@string/btn_info"
-            app:layout_constraintTop_toBottomOf="@+id/btn_exit"
-            tools:layout_editor_absoluteX="91dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_exit" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
