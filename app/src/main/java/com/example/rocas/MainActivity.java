@@ -19,11 +19,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // activamos la rotación del asteroide
         ImageView asteroide = findViewById(R.id.asteroide);
         rotarImageView(asteroide);
     }
 
-    // Rotar asteroide
+    // Animar rotación asteroide
     private void rotarImageView(View view){
         RotateAnimation animation = new RotateAnimation(0,1800,
                 RotateAnimation.RELATIVE_TO_SELF,0.5f,
@@ -33,20 +34,6 @@ public class MainActivity extends AppCompatActivity {
         animation.setRepeatMode(Animation.REVERSE);
         view.startAnimation(animation);
     }
-
-    /*
-        private void rotarImagen(View view){
-        RotateAnimation animation = new RotateAnimation(0, 360,
-                RotateAnimation.RELATIVE_TO_SELF, 0.5f,
-                RotateAnimation.RELATIVE_TO_SELF, 0.5f);
-
-        animation.setDuration(2000);
-        animation.setRepeatCount(Animation.INFINITE);
-        animation.setRepeatMode(Animation.REVERSE);
-        view.startAnimation(animation);
-    }
-
-    * */
 
     // Creando y configurando menú
     @Override
