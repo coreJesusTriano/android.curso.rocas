@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 openActivityInfo(null);
                 break;
             case R.id.btn_setting:
-                dontExist(null); // lo cambiaremos cuando lo hagamos
+                openActivityProfile(null);
                 break;
             case R.id.btn_play:
                 dontExist(null); // lo cambiaremos cuando lo hagamos
@@ -68,6 +68,11 @@ public class MainActivity extends AppCompatActivity {
     public void openActivityInfo(View view){
         Intent activInfo = new Intent(this, InfoActivity.class);
         startActivity(activInfo);
+    }
+
+    public void openActivityProfile(View view){
+        Intent activProfile = new Intent(this, ProfileActivity.class);
+        startActivity(activProfile);
     }
 
     public void closeApp(View view){

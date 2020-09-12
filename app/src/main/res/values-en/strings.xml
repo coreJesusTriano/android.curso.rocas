@@ -10,5 +10,8 @@
     <string name="app_name">Rocks</string>
     <string name="opt_dont_exist">This option is not yet available</string>
     <string name="search">Search</string>
-    <string name="asteroideDesc">Rotating asteroid</string>
+    <string name="asteroide_desc">Rotating asteroid</string>
+    <string name="label_add_photo">Agregar foto a tu perfil</string>
+    <string name="take_photo">Tomar foto</string>
+    <string name="photo_desc">Foto del perfil</string>
 </resources>

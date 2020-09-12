@@ -10,5 +10,8 @@
     <string name="btn_volver">Volver</string>
     <string name="opt_dont_exist">Esta opción aún no está disponible</string>
     <string name="search">Buscar</string>
-    <string name="asteroideDesc">Asteroide rotando</string>
+    <string name="asteroide_desc">Asteroide rotando</string>
+    <string name="label_add_photo">Agregar foto a tu perfil</string>
+    <string name="take_photo">Tomar foto</string>
+    <string name="photo_desc">Foto del perfil</string>
 </resources>
