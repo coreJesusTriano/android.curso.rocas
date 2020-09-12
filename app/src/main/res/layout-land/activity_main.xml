@@ -20,10 +20,21 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintHorizontal_bias="0.20"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintVertical_bias="0.15" />
+
+    <ImageView
+        android:id="@+id/asteroide"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/asteroideDesc"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:srcCompat="@drawable/asteroid_clipart" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="280dp"

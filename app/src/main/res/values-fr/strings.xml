@@ -10,4 +10,5 @@
     <string name="title_info">Ce sont les informations</string>
     <string name="opt_dont_exist">Cette option n\'est pas encore disponible</string>
     <string name="search">Chercher</string>
+    <string name="asteroideDesc">Astéroïde rotatif</string>
 </resources>
