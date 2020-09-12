@@ -12,17 +12,28 @@
     <item
         android:id="@+id/btn_setting"
         android:icon="@drawable/ic_baseline_settings_24"
-        android:title="@string/btn_setting" />
+        android:title="@string/btn_setting"
+        app:showAsAction="never" />
 
     <item
         android:id="@+id/btn_exit"
         android:icon="@drawable/ic_baseline_exit_to_app_24"
         android:title="@string/btn_exit"
-        app:showAsAction="always" />
+        android:orderInCategory="30"
+        app:showAsAction="always|collapseActionView" />
 
     <item
         android:id="@+id/btn_info"
         android:icon="@drawable/ic_baseline_info_24"
-        android:title="@string/btn_info" />
+        android:title="@string/btn_info"
+        android:orderInCategory="20"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/search"
+        android:orderInCategory="10"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
 
 </menu>

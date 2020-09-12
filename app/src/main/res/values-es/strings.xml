@@ -9,4 +9,5 @@
     <string name="title_info">Esta es la información</string>
     <string name="btn_volver">Volver</string>
     <string name="opt_dont_exist">Esta opción aún no está disponible</string>
+    <string name="search">Buscar</string>
 </resources>

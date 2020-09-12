@@ -58,6 +58,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void dontExist(View view){
-        Toast.makeText(this, R.string.opt_dont_exist,Toast.LENGTH_LONG).show();
+        Toast.makeText(this, R.string.opt_dont_exist,Toast.LENGTH_SHORT).show();
     }
 }

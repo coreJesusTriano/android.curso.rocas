@@ -9,4 +9,5 @@
     <string name="btn_volver">Go back</string>
     <string name="app_name">Rocks</string>
     <string name="opt_dont_exist">This option is not yet available</string>
+    <string name="search">Search</string>
 </resources>
